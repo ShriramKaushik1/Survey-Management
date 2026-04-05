@@ -10,6 +10,7 @@ import utils.UIHelper;
 
 public class MainApp extends JFrame {
 
+    //Writing main code here 
     public MainApp() {
         setTitle("Survey Management System - Admin & User Portal");
         setSize(1400, 800);
