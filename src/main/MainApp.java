@@ -41,8 +41,8 @@ public class MainApp extends JFrame {
         JLabel title = UIHelper.createWhiteLabel("Survey Management System");
         title.setFont(UIHelper.TITLE_FONT);
 
-        JLabel subtitle = UIHelper.createWhiteLabel("Admin & User Portals");
-        subtitle.setFont(UIHelper.SUBTITLE_FONT.deriveFont(Font.PLAIN, 18f));
+//        JLabel subtitle = UIHelper.createWhiteLabel("Admin & User Portals");
+//        subtitle.setFont(UIHelper.SUBTITLE_FONT.deriveFont(Font.PLAIN, 18f));
 
         JPanel textPanel = new JPanel();
         textPanel.setOpaque(false);
@@ -164,7 +164,7 @@ public class MainApp extends JFrame {
         footer.setBackground(UIHelper.DARK_COLOR);
         footer.setPreferredSize(new Dimension(1400, 50));
 
-        JLabel txt = UIHelper.createWhiteLabel("© 2024 Survey Management System");
+        JLabel txt = UIHelper.createWhiteLabel("© 2026 Smart Survey by Shriram Kaushik ");
         txt.setFont(UIHelper.SMALL_FONT);
 
         footer.add(txt);
